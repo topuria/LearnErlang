@@ -26,3 +26,15 @@
 %% Bitwise Operations (band,bor,bnot,bxor) bituri operaciebistvis, anu binarul temebshi gamoiyeneba eseni
 
 
+%% Erlang Data Types
+%% Boolean True or False
+%% Number 100 / 100.0 / $Char -> anu simbolos ascii shesatyvisi magalitad $A = 65
+%% Functions esec data type ari radgan gvibrunebs ragacas  convert(A,B)
+%% Tuple {First,Second}
+%% List [1,2,3,4]
+%% Map #{a=>1,b=>2}  anu a aris 1 da b aris 2 , mepavs ertmanettan
+
+%% PortId pid -> eseni gamoiyeneba procesebtan samushaod jer arvici raari
+%% ProcessId  -> esec
+
+
