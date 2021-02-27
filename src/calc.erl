@@ -27,9 +27,6 @@ check(X,Y)->
     X >= Y -> io:fwrite("First Number is more or equal to Second ");
     true -> io:fwrite("First Number is Less Than Second ")
   end.
-%% == -> es aris shedareba 2 == 2  aris true
-%% /= -> es aris ar udris 2 /= 3 aris true
-
 
 %% Logical Operations ( or,and,not,xor )
 %% Or -> if true or true mashin aris true ert-erti piroba unda iyos cheshmariti
@@ -37,11 +34,7 @@ check(X,Y)->
 %% Not -> Not false aris true , not true aris false,  magalitad javashi x tu aris true !x aris false
 %% piriqit mnishvnelobas abrunebs
 %% Xor -> True xor false gives true  -> erti mainc unda iyos true ro true daabrunos sxva shemtxvevashi abrunebs false
-
-
-
 %% Bitwise Operations (band,bor,bnot,bxor) bituri operaciebistvis, anu binarul temebshi gamoiyeneba eseni
-
 
 %% Erlang Data Types
 %% Boolean True or False
