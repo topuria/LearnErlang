@@ -1,15 +1,32 @@
--module(operations).
+-module(calc).
 
 %% API
--export([]).
+-export([calculator/3,rel/3,check/2]).
 
 %% Arithmetic Operations ( + , -,  *, /, rem, div )
 %% rem -> aris remainderi anu igive rac % es javashi
 %% div -> aris division ogond integeruli anu damrgvalebulad 5 div 3 = 1
-
-
-
+calculator(X,Y,plus)->
+  X+Y;
+calculator(X,Y,minus)->
+  X-Y;
+calculator(X,Y,mult)->
+  X*Y;
+calculator(X,Y,division)->
+  X/Y;
+calculator(X,Y,remainder)->
+  X rem Y.
 %% Relational Operations ( ==, /= , >= ,  <= , > , < )
+rel(X,Y,shedareba)->
+  X==Y;
+rel(X,Y,arudris)->
+  X /= Y.
+
+check(X,Y)->
+  if
+    X >= Y -> io:fwrite("First Number is more or equal to Second ");
+    true -> io:fwrite("First Number is Less Than Second ")
+  end.
 %% == -> es aris shedareba 2 == 2  aris true
 %% /= -> es aris ar udris 2 /= 3 aris true
 
